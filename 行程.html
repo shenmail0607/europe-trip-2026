@@ -1,0 +1,2033 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欧洲行程 2026年9月</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        .section {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .section-title {
+            font-size: 1.8em;
+            color: #34495e;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+        }
+
+        .day-title {
+            font-size: 1.3em;
+            color: #2980b9;
+            margin: 30px 0 15px 0;
+            padding: 10px 15px;
+            background: #ecf0f1;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            font-size: 0.95em;
+        }
+
+        th {
+            background: #34495e;
+            color: white;
+            padding: 12px 10px;
+            text-align: left;
+            font-weight: 600;
+            border: 1px solid #2c3e50;
+        }
+
+        td {
+            padding: 12px 10px;
+            border: 1px solid #ddd;
+            vertical-align: top;
+        }
+
+        tr:hover td {
+            background: #f8f9fa;
+        }
+
+        .module-col {
+            width: 15%;
+            font-weight: 600;
+            color: #2c3e50;
+            background: #ecf0f1;
+        }
+
+        .time-col {
+            width: 12%;
+            font-weight: 600;
+            color: #2980b9;
+            white-space: nowrap;
+        }
+
+        .detail-col {
+            width: 38%;
+        }
+
+        .location-col {
+            width: 20%;
+        }
+
+        .note-col {
+            width: 15%;
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        .map-link {
+            color: #3498db;
+            text-decoration: none;
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            border: 1px solid #3498db;
+            font-size: 0.85em;
+            transition: all 0.2s;
+        }
+
+        .map-link:hover {
+            background: #3498db;
+            color: white;
+        }
+
+        .map-link::before {
+            content: "📍 ";
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+
+        .badge-booked {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .badge-pending {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .badge-urgent {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .restaurant-box {
+            background: #e8f5e9;
+            border-left: 3px solid #4caf50;
+            padding: 8px 12px;
+            margin: 5px 0;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+
+        .restaurant-name {
+            font-weight: bold;
+            color: #2e7d32;
+        }
+
+        .warning-box {
+            background: #fff3cd;
+            border-left: 3px solid #ffc107;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+
+        .info-box {
+            background: #d1ecf1;
+            border-left: 3px solid #17a2b8;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+
+        @media (max-width: 1024px) {
+            .module-col { width: 18%; }
+            .time-col { width: 14%; }
+            .detail-col { width: 35%; }
+            .location-col { width: 18%; }
+            .note-col { width: 15%; }
+        }
+
+        @media (max-width: 768px) {
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+
+            thead tr {
+                display: none;
+            }
+
+            tr {
+                margin-bottom: 15px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                padding: 10px;
+            }
+
+            td {
+                border: none;
+                position: relative;
+                padding-left: 40%;
+                text-align: left;
+            }
+
+            td:before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                font-weight: bold;
+                color: #34495e;
+            }
+
+            .module-col {
+                background: #3498db !important;
+                color: white !important;
+                padding: 10px !important;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 欧洲行程</h1>
+        <div class="subtitle">2026年9月 | 巴塞罗那 · 马赛 · 昂蒂布 · 尼斯</div>
+
+        <!-- 巴塞罗那段 -->
+        <div class="section">
+            <h2 class="section-title">第一段 · 巴塞罗那（9/14 – 9/20，6晚）</h2>
+
+            <div class="warning-box">
+                <strong>⚠️ 需立即处理的预订：</strong><br>
+                1. <strong>Los Tarantos 弗拉门戈</strong>（9/16 19:30）— 最紧急，小场地容易满场<br>
+                2. <strong>毕加索博物馆</strong>（9/18 11:00）— 建议提前订，省排队时间
+            </div>
+
+            <!-- 9/14 -->
+            <div class="day-title">9/14 周一 · 抵达日</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日程模块</th>
+                        <th>时间</th>
+                        <th>具体事项</th>
+                        <th>地址</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="module-col" rowspan="2" data-label="日程模块">抵达与入住</td>
+                        <td class="time-col" data-label="时间">19:25–21:00</td>
+                        <td class="detail-col" data-label="具体事项">落地巴塞罗那机场 T1，护照检查、取行李</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Barcelona+Airport+Terminal+1" target="_blank">BCN T1</a>
+                        </td>
+                        <td class="note-col" data-label="备注">非欧盟通道，已留足 95 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">21:00–22:15</td>
+                        <td class="detail-col" data-label="具体事项">打车至酒店（25–35 分钟），办理入住、放行李、休整</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Best+Western+Premier+Hotel+Dante+Mallorca+181+Barcelona" target="_blank">Best Western Premier Hotel Dante</a>
+                        </td>
+                        <td class="note-col" data-label="备注">Carrer de Mallorca 181</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">晚餐</td>
+                        <td class="time-col" data-label="时间">22:15–23:30</td>
+                        <td class="detail-col" data-label="具体事项">
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">推荐：Cervecería Catalana</span><br>
+                                本地 tapas 老店，周一营业至 23:30，推荐 jamón、炸鱿鱼、蘑菇炒蛋。无需预约。
+                            </div>
+                        </td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Carrer+de+Mallorca+236+Barcelona" target="_blank">Mallorca 236</a>
+                        </td>
+                        <td class="note-col" data-label="备注">距酒店步行 5 分钟，22:15 过了高峰期</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- 9/15 -->
+            <div class="day-title">9/15 周二 · 圣家堂 + 焦糖山日落 + Sips</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日程模块</th>
+                        <th>时间</th>
+                        <th>具体事项</th>
+                        <th>地址</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">Brunch</td>
+                        <td class="time-col" data-label="时间">10:00–11:30</td>
+                        <td class="detail-col" data-label="具体事项">
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">推荐：Federal Café</span><br>
+                                澳式咖啡馆，avocado toast、eggs benedict，10:00 开门工作日不排队。
+                            </div>
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">或 Flax & Kale</span><br>
+                                健康系 brunch，素食友好，装修现代。
+                            </div>
+                        </td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Carrer+del+Parlament+39+Barcelona" target="_blank">Parlament 39</a>
+                        </td>
+                        <td class="note-col" data-label="备注">Sant Antoni，步行 15 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">扩展区散步</td>
+                        <td class="time-col" data-label="时间">11:30–12:50</td>
+                        <td class="detail-col" data-label="具体事项">扩展区悠闲散步</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" rowspan="3" data-label="日程模块">参观圣家堂<span class="badge badge-booked">已订</span></td>
+                        <td class="time-col" data-label="时间">12:50–13:20</td>
+                        <td class="detail-col" data-label="具体事项">步行前往圣家堂（约 25–30 分钟）</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Sagrada+Familia+Barcelona" target="_blank">Sagrada Família</a>
+                        </td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">13:20–13:45</td>
+                        <td class="detail-col" data-label="具体事项">外围拍照、过安检排队</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">13:45–16:00</td>
+                        <td class="detail-col" data-label="具体事项">入场参观，14:15 Passion facade 登塔</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">13:45 入场，14:15 登塔</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">圣家堂周边</td>
+                        <td class="time-col" data-label="时间">16:00–16:35</td>
+                        <td class="detail-col" data-label="具体事项">周边咖啡歇脚</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" rowspan="2" data-label="日程模块">焦糖山日落</td>
+                        <td class="time-col" data-label="时间">16:35–17:00</td>
+                        <td class="detail-col" data-label="具体事项">打车前往焦糖山</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Bunkers+del+Carmel+Barcelona" target="_blank">Bunkers del Carmel</a>
+                        </td>
+                        <td class="note-col" data-label="备注">约 €10–12，15–20 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">17:00–19:15</td>
+                        <td class="detail-col" data-label="具体事项">Bunkers del Carmel 看黄金时段光线</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">带外套+零食，山上风大。19:30 清场务必提前离开</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">返回酒店</td>
+                        <td class="time-col" data-label="时间">19:15–19:45</td>
+                        <td class="detail-col" data-label="具体事项">打车下山回扩展区</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">晚餐</td>
+                        <td class="time-col" data-label="时间">20:30–22:00</td>
+                        <td class="detail-col" data-label="具体事项">
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">推荐：Cruix <span class="badge badge-pending">建议预约</span></span><br>
+                                现代加泰罗尼亚菜，米其林 Bib Gourmand，人均 €40–50。
+                            </div>
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">或 Leka</span><br>
+                                巴斯克风格 pintxos bar，从 Sips 步行 2 分钟，无需预约。
+                            </div>
+                        </td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Cruix+Carrer+d'Entença+57+Barcelona" target="_blank">Cruix</a><br>
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Leka+Carrer+del+Consell+de+Cent+286+Barcelona" target="_blank">Leka</a>
+                        </td>
+                        <td class="note-col" data-label="备注">
+                            <strong>Cruix</strong>：Carrer d'Entença 57，步行 10 分钟<br>
+                            📞 +34 935 25 23 18<br>
+                            🔗 <a href="https://cruixrestaurant.com/" target="_blank">cruixrestaurant.com</a><br><br>
+                            <strong>Leka</strong>：Carrer del Consell de Cent 286，无需预约
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">Sips 酒吧</td>
+                        <td class="time-col" data-label="时间">22:15–23:30</td>
+                        <td class="detail-col" data-label="具体事项">住对面，喝完直接回酒店</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Sips+Barcelona" target="_blank">Sips</a>
+                        </td>
+                        <td class="note-col" data-label="备注">无需预约</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- 9/16 -->
+            <div class="day-title">9/16 周三 · 巴特罗早鸟 + 波恩区逛街 + 弗拉门戈</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日程模块</th>
+                        <th>时间</th>
+                        <th>具体事项</th>
+                        <th>地址</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="module-col" rowspan="2" data-label="日程模块">参观巴特罗之家<span class="badge badge-booked">已订</span></td>
+                        <td class="time-col" data-label="时间">08:15</td>
+                        <td class="detail-col" data-label="具体事项">步行前往巴特罗之家</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Casa+Batlló+Barcelona" target="_blank">Casa Batlló</a>
+                        </td>
+                        <td class="note-col" data-label="备注">8–10 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">08:30–10:00</td>
+                        <td class="detail-col" data-label="具体事项">早鸟票入场参观</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">早鸟票 08:30 入场</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">早午餐</td>
+                        <td class="time-col" data-label="时间">10:00–11:30</td>
+                        <td class="detail-col" data-label="具体事项">
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">推荐：Brunch & Cake</span><br>
+                                Instagram 风格 brunch，分量大，工作日 10:00 不排队。
+                            </div>
+                        </td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Carrer+d'Enric+Granados+Barcelona" target="_blank">Enric Granados</a>
+                        </td>
+                        <td class="note-col" data-label="备注">步行 8 分钟，周末才排队</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">酒店午休</td>
+                        <td class="time-col" data-label="时间">11:45–13:30</td>
+                        <td class="detail-col" data-label="具体事项">回酒店午休（105 分钟）</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">波恩区逛街</td>
+                        <td class="time-col" data-label="时间">14:00–18:00</td>
+                        <td class="detail-col" data-label="具体事项">核心：Carrer del Rec（约 400 米长街）<br>独立设计师店与潮牌密集：SSSTUFFF、Carhartt WIP、TheRoom、PERSEI、Blended Concept Store</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Carrer+del+Rec+Barcelona" target="_blank">Carrer del Rec</a>
+                        </td>
+                        <td class="note-col" data-label="备注">小店多不支持刷卡，备点现金</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">返回酒店</td>
+                        <td class="time-col" data-label="时间">18:00–18:30</td>
+                        <td class="detail-col" data-label="具体事项">回酒店放东西、休整</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">弗拉门戈表演<span class="badge badge-urgent">待订</span></td>
+                        <td class="time-col" data-label="时间">19:30–20:15</td>
+                        <td class="detail-col" data-label="具体事项">Los Tarantos 弗拉门戈，19:30 场</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Los+Tarantos+Plaça+Reial+17+Barcelona" target="_blank">Plaça Reial 17</a>
+                        </td>
+                        <td class="note-col" data-label="备注">⚠️ 紧急待订，小场地易满</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">晚餐</td>
+                        <td class="time-col" data-label="时间">20:30–22:00</td>
+                        <td class="detail-col" data-label="具体事项">
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">推荐：El Xampanyet</span><br>
+                                1929 年老店，tapas + cava，推荐 anchovies、烤青椒。20:30 第二轮客人，等位短。
+                            </div>
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">或 Bar del Pla</span><br>
+                                创意 tapas，本地人多，无需预约。
+                            </div>
+                        </td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Carrer+de+Montcada+22+Barcelona" target="_blank">Montcada 22</a>
+                        </td>
+                        <td class="note-col" data-label="备注">波恩区，毕加索博物馆旁</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- 9/17 -->
+            <div class="day-title">9/17 周四 · Sant Antoni 市场 + 蒙锥克山博物馆日 + MNAC 日落</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日程模块</th>
+                        <th>时间</th>
+                        <th>具体事项</th>
+                        <th>地址</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="module-col" rowspan="3" data-label="日程模块">市场与书店</td>
+                        <td class="time-col" data-label="时间">09:30–09:45</td>
+                        <td class="detail-col" data-label="具体事项">步行至 Sant Antoni 市场</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Mercat+de+Sant+Antoni+Barcelona" target="_blank">Sant Antoni 市场</a>
+                        </td>
+                        <td class="note-col" data-label="备注">15 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">09:45–11:00</td>
+                        <td class="detail-col" data-label="具体事项"><strong>Mercat de Sant Antoni</strong>，1882 年铁艺结构本地市场，市场内 bar 吃早餐</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">市场 8:00–15:00 营业</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">11:00–12:00</td>
+                        <td class="detail-col" data-label="具体事项"><strong>Llibreria Terranova 书店</strong> + Comte Borrell 街周边 vintage 店、独立服装店</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Carrer+del+Comte+Borrell+99+Barcelona" target="_blank">Comte Borrell 99</a>
+                        </td>
+                        <td class="note-col" data-label="备注">书店 11:00 开门</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">返回酒店</td>
+                        <td class="time-col" data-label="时间">12:00–13:30</td>
+                        <td class="detail-col" data-label="具体事项">步行回酒店（15 分钟）+ 午休</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">午餐</td>
+                        <td class="time-col" data-label="时间">13:30–14:00</td>
+                        <td class="detail-col" data-label="具体事项">
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">推荐：Bundan Beer Company</span><br>
+                                本地啤酒厂 + 汉堡、tapas，快速午餐，性价比高。
+                            </div>
+                        </td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Carrer+de+Nàpols+168+Barcelona" target="_blank">Nàpols 168</a>
+                        </td>
+                        <td class="note-col" data-label="备注">去蒙锥克山路上</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" rowspan="2" data-label="日程模块">米罗基金会</td>
+                        <td class="time-col" data-label="时间">14:00–14:30</td>
+                        <td class="detail-col" data-label="具体事项">前往蒙锥克山</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Fundació+Joan+Miró+Barcelona" target="_blank">Fundació Joan Miró</a>
+                        </td>
+                        <td class="note-col" data-label="备注">地铁 L1/L3 至 Espanya 站 + 步行 10 分钟，或 150 路公交直达</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">14:30–16:30</td>
+                        <td class="detail-col" data-label="具体事项"><strong>米罗基金会</strong>，米罗画作、雕塑、陶瓷，Josep Lluís Sert 设计的白色现代主义建筑</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">门票 €14，周四开到 20:00</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" rowspan="2" data-label="日程模块">MNAC + 日落</td>
+                        <td class="time-col" data-label="时间">16:30–16:45</td>
+                        <td class="detail-col" data-label="具体事项">步行至 MNAC（往东走下坡）</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=MNAC+Barcelona" target="_blank">MNAC</a>
+                        </td>
+                        <td class="note-col" data-label="备注">约 10 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">16:45–19:40</td>
+                        <td class="detail-col" data-label="具体事项"><strong>MNAC</strong>（加泰罗尼亚国家艺术博物馆），世界级罗马式壁画收藏 + 加泰罗尼亚现代主义绘画<br>18:30 起可上顶楼露台等日落（约 20:03，巴塞罗那公认最佳日落观景点）</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">门票 €12，周四 10:00–20:00</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" rowspan="2" data-label="日程模块">晚餐</td>
+                        <td class="time-col" data-label="时间">19:40–20:00</td>
+                        <td class="detail-col" data-label="具体事项">下山至 Espanya 地铁站</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">约 10 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">20:00–21:15</td>
+                        <td class="detail-col" data-label="具体事项">
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">推荐：Carrer de Blai pintxos 街</span><br>
+                                整条街都是 pintxos bar，路过看哪家顺眼进哪家。
+                            </div>
+                        </td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Carrer+de+Blai+Barcelona" target="_blank">Carrer de Blai</a>
+                        </td>
+                        <td class="note-col" data-label="备注">Poble-sec，从魔幻喷泉步行 15 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">魔幻喷泉</td>
+                        <td class="time-col" data-label="时间">21:30–22:30</td>
+                        <td class="detail-col" data-label="具体事项">Font Màgica，免费</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Font+Màgica+Barcelona" target="_blank">Font Màgica</a>
+                        </td>
+                        <td class="note-col" data-label="备注">周四 21:30–22:30 场次</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- 9/18 -->
+            <div class="day-title">9/18 周五 · 城堡公园 + 哥特区 Local 漫游 + 毕加索博物馆 + Jazz Cruise</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日程模块</th>
+                        <th>时间</th>
+                        <th>具体事项</th>
+                        <th>地址</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="module-col" rowspan="2" data-label="日程模块">城堡公园散步</td>
+                        <td class="time-col" data-label="时间">09:30–10:00</td>
+                        <td class="detail-col" data-label="具体事项">咖啡馆买咖啡外带（推荐 Satan's Coffee Corner）</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Carrer+de+l'Arc+de+Sant+Ramon+del+Call+11+Barcelona" target="_blank">哥特区</a>
+                        </td>
+                        <td class="note-col" data-label="备注">精品咖啡，适合外带</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">10:00–11:00</td>
+                        <td class="detail-col" data-label="具体事项"><strong>Parc de la Ciutadella</strong> 散步，巴塞罗那最大城市公园。亮点：凯旋门、巨大的喷泉瀑布（高迪参与设计）、湖边长椅、加泰罗尼亚议会建筑外观</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Parc+de+la+Ciutadella+Barcelona" target="_blank">Parc de la Ciutadella</a>
+                        </td>
+                        <td class="note-col" data-label="备注">带着咖啡边走边喝</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">毕加索博物馆<span class="badge badge-pending">建议订票</span></td>
+                        <td class="time-col" data-label="时间">11:00–13:00</td>
+                        <td class="detail-col" data-label="具体事项">中世纪贵族宅邸改建，收藏毕加索早期作品 + 蓝色时期 + 立体主义</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Museu+Picasso+Barcelona" target="_blank">Museu Picasso</a>
+                        </td>
+                        <td class="note-col" data-label="备注">门票 €12，公园旁步行 5 分钟，建议提前订票省排队</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">午餐</td>
+                        <td class="time-col" data-label="时间">13:00–14:00</td>
+                        <td class="detail-col" data-label="具体事项">
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">推荐：Bar Cañete <span class="badge badge-pending">建议预约</span></span><br>
+                                传统加泰罗尼亚菜，本地人午餐热门，推荐炖牛尾、海鲜饭。
+                            </div>
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">或 Els Quatre Gats</span><br>
+                                毕加索常去的历史咖啡馆（1897 年），现代主义建筑，适合拍照。
+                            </div>
+                        </td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Carrer+de+la+Unió+17+Barcelona" target="_blank">Unió 17</a>
+                        </td>
+                        <td class="note-col" data-label="备注">哥特区</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">哥特区漫游</td>
+                        <td class="time-col" data-label="时间">14:00–17:00</td>
+                        <td class="detail-col" data-label="具体事项">哥特区小巷漫游（3 小时，随意节奏）<br>· Vintage / 二手店：Carrer dels Banys Nous、Carrer de la Palla 一带<br>· 独立买手店、手工艺品：Carrer del Pi、Carrer de Petritxol<br>· 街头艺术：犹太区（Call Jueu）小巷墙面<br>· 独立书店、唱片店、小画廊：散落各条小巷</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Gothic+Quarter+Barcelona" target="_blank">哥特区</a>
+                        </td>
+                        <td class="note-col" data-label="备注">不规划固定路线，看到喜欢的店就进去</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" rowspan="2" data-label="日程模块">港口区 tapas</td>
+                        <td class="time-col" data-label="时间">17:00–17:15</td>
+                        <td class="detail-col" data-label="具体事项">步行至港口登船点（途经兰布拉大道南段）</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Portal+de+la+Pau+Barcelona" target="_blank">Portal de la Pau</a>
+                        </td>
+                        <td class="note-col" data-label="备注">约 15 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">17:15–19:00</td>
+                        <td class="detail-col" data-label="具体事项">
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">推荐：La Cova Fumada</span><br>
+                                "炸弹土豆"（bombas）发源地，非常本地，游客少。17:15 开门就去。
+                            </div>
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">或 Can Solé <span class="badge badge-pending">建议预约 18:00</span></span><br>
+                                1903 年老店，海鲜饭和烤鱼。
+                            </div>
+                        </td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Barceloneta+Barcelona" target="_blank">Barceloneta</a>
+                        </td>
+                        <td class="note-col" data-label="备注">填补登船前空档</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">Jazz Cruise<span class="badge badge-booked">已订</span></td>
+                        <td class="time-col" data-label="时间">19:00–20:30</td>
+                        <td class="detail-col" data-label="具体事项">Sunset Jazz Cruise，19:00 开船，海上看日落</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">哥伦布纪念碑登船点</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">下船后</td>
+                        <td class="time-col" data-label="时间">20:30 起</td>
+                        <td class="detail-col" data-label="具体事项">视体力：回酒店休息，或去 Paradiso 酒吧</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Paradiso+Barcelona" target="_blank">Paradiso</a>
+                        </td>
+                        <td class="note-col" data-label="备注">Carrer de Radas 1，从登船点步行 20 分钟</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- 9/19 -->
+            <div class="day-title">9/19 周六 · 格拉西亚区闲逛 + 格拉西亚大道购物 + Tibidabo 傍晚上山</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日程模块</th>
+                        <th>时间</th>
+                        <th>具体事项</th>
+                        <th>地址</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">格拉西亚区闲逛</td>
+                        <td class="time-col" data-label="时间">09:00–10:30</td>
+                        <td class="detail-col" data-label="具体事项">巴塞罗那波西米亚风老街区，艺术家、学生聚集地<br>· <strong>Mercat de la Llibertat</strong>（自由市场）：1888 年现代主义建筑，本地菜市场，游客极少（周六 8:00–15:00）<br>· 小广场：Plaça del Sol、Plaça de la Virreina（周末有手工市集）<br>· 独立小店、vintage 店、咖啡馆散落在窄巷中</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Gràcia+Barcelona" target="_blank">格拉西亚区</a>
+                        </td>
+                        <td class="note-col" data-label="备注">从酒店步行 20 分钟，或从 Diagonal 站往北走</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">格拉西亚大道购物</td>
+                        <td class="time-col" data-label="时间">10:30–13:30</td>
+                        <td class="detail-col" data-label="具体事项"><strong>建议动线</strong>（从北往南，下坡且先逛奢侈品）：<br>· Diagonal → Provença：奢侈品段（Loewe、LV、Gucci、Chanel）<br>· Provença → Aragó：<strong>不和谐街区</strong>（抬头看建筑，米拉之家、巴特罗之家、莱奥莫雷拉之家）<br>· Aragó → 加泰罗尼亚广场：快消段（Zara 旗舰、Mango、英国宫百货）</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Passeig+de+Gràcia+Barcelona" target="_blank">Passeig de Gràcia</a>
+                        </td>
+                        <td class="note-col" data-label="备注">防扒手：奢侈品店可要求送货到酒店。退税：单店满 €90.16 可开退税单</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">午餐</td>
+                        <td class="time-col" data-label="时间">13:30–14:30</td>
+                        <td class="detail-col" data-label="具体事项">
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">推荐：Casa Amàlia <span class="badge badge-pending">建议预约</span></span><br>
+                                家庭式加泰罗尼亚菜，周末 menú del día，性价比高。
+                            </div>
+                        </td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Carrer+del+Mercat+de+Sant+Antoni+4+Barcelona" target="_blank">Sant Antoni 4</a>
+                        </td>
+                        <td class="note-col" data-label="备注">从格拉西亚区回来路上</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">休整</td>
+                        <td class="time-col" data-label="时间">14:30–16:00</td>
+                        <td class="detail-col" data-label="具体事项">继续购物或回酒店放购物袋、休整</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" rowspan="2" data-label="日程模块">Tibidabo 傍晚上山</td>
+                        <td class="time-col" data-label="时间">16:00–16:45</td>
+                        <td class="detail-col" data-label="具体事项">前往 Tibidabo（从 Plaça de Catalunya 乘 T2A Tibibus 直达约 30 分钟，或打车约 15 分钟）+ 蓝色缆车上山 Funicular（€7.7 往返）</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Tibidabo+Barcelona" target="_blank">Tibidabo</a>
+                        </td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">17:00–20:00</td>
+                        <td class="detail-col" data-label="具体事项"><strong>Tibidabo 游乐园 + 圣心教堂 + 日落</strong><br>· 游乐园精华设施：百年摩天轮（Giradabo）、旋转木马、飞机（Avió）、塔拉亚观景塔（Talaia）<br>· 圣心教堂登顶电梯（€3）：360° 观景台<br>· 19:00 起黄金时段光线 + 20:00 日落</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">Sky Walk 套票约 €35.60，周六开放。带外套，山顶风大且日落后温度降</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">下山返回</td>
+                        <td class="time-col" data-label="时间">20:00–21:00</td>
+                        <td class="detail-col" data-label="具体事项">缆车 + 公交/打车下山，返回扩展区</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">晚餐</td>
+                        <td class="time-col" data-label="时间">21:00–22:00</td>
+                        <td class="detail-col" data-label="具体事项">
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">推荐：Tapas 24</span><br>
+                                Carles Abellan 的快餐版 tapas，性价比高，适合最后一晚轻松吃。
+                            </div>
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">或 Roca Moo <span class="badge badge-urgent">必须预约</span></span><br>
+                                米其林一星，Roca 兄弟。
+                            </div>
+                        </td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Carrer+de+la+Diputació+269+Barcelona" target="_blank">Diputació 269</a>
+                        </td>
+                        <td class="note-col" data-label="备注">扩展区，21:00 可能要等位 15 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">打包行李</td>
+                        <td class="time-col" data-label="时间">22:30</td>
+                        <td class="detail-col" data-label="具体事项">回酒店打包行李</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">次日 9/20 10:30 出发去机场飞马赛</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- 9/20 -->
+            <div class="day-title">9/20 周日 · 退房，飞马赛</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日程模块</th>
+                        <th>时间</th>
+                        <th>具体事项</th>
+                        <th>地址</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">退房</td>
+                        <td class="time-col" data-label="时间">09:30</td>
+                        <td class="detail-col" data-label="具体事项">早餐、退房</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">前往机场</td>
+                        <td class="time-col" data-label="时间">10:30</td>
+                        <td class="detail-col" data-label="具体事项">打车前往 BCN 机场</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Barcelona+Airport" target="_blank">BCN 机场</a>
+                        </td>
+                        <td class="note-col" data-label="备注">约 25 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">飞往马赛<span class="badge badge-booked">已订</span></td>
+                        <td class="time-col" data-label="时间">13:20–14:35</td>
+                        <td class="detail-col" data-label="具体事项">✈️ 巴塞罗那 → 马赛</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 预订提示 -->
+        <div class="section">
+            <h2 class="section-title">📋 待办事项</h2>
+
+            <div class="info-box">
+                <strong>🎫 门票预订：</strong><br>
+                1. <strong>Los Tarantos 弗拉门戈</strong>（9/16 19:30）— ⚠️ 最紧急<br>
+                2. <strong>毕加索博物馆</strong>（9/18 11:00）— 建议提前订
+            </div>
+
+            <div class="info-box">
+                <strong>🍽️ 餐厅预约：</strong><br>
+                1. Cruix（9/15 晚餐）— 现代加泰罗尼亚菜<br>
+                2. Bar Cañete（9/18 午餐）— 本地人午餐热门<br>
+                3. Casa Amàlia（9/19 午餐）— 周末 menú del día<br>
+                4. Can Solé（9/18 港口 tapas，建议预约 18:00）
+            </div>
+        </div>
+
+        <!-- 马赛段 -->
+        <div class="section">
+            <h2 class="section-title">第二段 · 马赛（9/20 – 9/22，2晚）</h2>
+
+            <div class="warning-box">
+                <strong>⚠️ 需立即处理：</strong><br>
+                1. <strong>马赛 → 昂蒂布火车票</strong>（9/22 13:00）— 待订，SNCF Connect<br>
+                2. <strong>餐厅预约</strong>：Le Miramar 或 Chez Fonfon（9/20 晚餐）、Peron（9/21 晚餐）
+            </div>
+
+            <!-- 9/20 -->
+            <div class="day-title">9/20 周日 · 抵达 + 小火车 + 双视角日落</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日程模块</th>
+                        <th>时间</th>
+                        <th>具体事项</th>
+                        <th>地址</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="module-col" rowspan="2" data-label="日程模块">抵达马赛</td>
+                        <td class="time-col" data-label="时间">14:35</td>
+                        <td class="detail-col" data-label="具体事项">✈️ 抵达马赛普罗旺斯机场（MRS），入境取行李</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Marseille+Provence+Airport" target="_blank">MRS 机场</a>
+                        </td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">15:15–15:45</td>
+                        <td class="detail-col" data-label="具体事项">打车（Uber/Bolt）至老港酒店</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Vieux+Port+Marseille" target="_blank">老港酒店</a>
+                        </td>
+                        <td class="note-col" data-label="备注">25–30 分钟，约 €40–50</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">办理入住</td>
+                        <td class="time-col" data-label="时间">15:45–16:30</td>
+                        <td class="detail-col" data-label="具体事项">办理入住，休整</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" rowspan="3" data-label="日程模块">观光小火车 + 守护圣母圣殿</td>
+                        <td class="time-col" data-label="时间">16:30–17:15</td>
+                        <td class="detail-col" data-label="具体事项">观光小火车上山，买 1 号线（守护圣母圣殿线）车票</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=174+Quai+du+Port+Marseille" target="_blank">174 Quai du Port</a>
+                        </td>
+                        <td class="note-col" data-label="备注">老港北侧始发站</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">17:15–18:00</td>
+                        <td class="detail-col" data-label="具体事项"><strong>守护圣母圣殿</strong>，免费入内，360° 观景台俯瞰马赛全景</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Basilique+Notre-Dame+de+la+Garde+Marseille" target="_blank">Notre-Dame de la Garde</a>
+                        </td>
+                        <td class="note-col" data-label="备注">免费</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">18:00–18:45</td>
+                        <td class="detail-col" data-label="具体事项">小火车下山，凭来程票原路返回</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">末班时间建议到达后在始发站确认；如错过可打车下山约 €15–20</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">法罗宫花园日落</td>
+                        <td class="time-col" data-label="时间">19:00–20:00</td>
+                        <td class="detail-col" data-label="具体事项"><strong>Jardin du Pharo 看日落</strong>，从老港步行 12–15 分钟</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Jardin+du+Pharo+Marseille" target="_blank">Jardin du Pharo</a>
+                        </td>
+                        <td class="note-col" data-label="备注">日落约 19:39</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">晚餐</td>
+                        <td class="time-col" data-label="时间">20:15 起</td>
+                        <td class="detail-col" data-label="具体事项">
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">推荐：Le Miramar <span class="badge badge-urgent">必须预约</span></span><br>
+                                1923 年老店，马赛鱼汤宪章创始成员，bouillabaisse 套餐约 €78。非常热门。
+                            </div>
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">或 Chez Fonfon <span class="badge badge-pending">建议预约</span></span><br>
+                                本地人推荐，比 Le Miramar 更本地化，bouillabaisse 约 €65–70。距离老港打车 10 分钟。
+                            </div>
+                        </td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Le+Miramar+12+Quai+du+Port+Marseille" target="_blank">Le Miramar</a><br>
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Chez+Fonfon+140+Rue+du+Vallon+des+Auffes+Marseille" target="_blank">Chez Fonfon</a>
+                        </td>
+                        <td class="note-col" data-label="备注">老港海鲜 / 马赛鱼汤晚餐</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- 9/21 -->
+            <div class="day-title">9/21 周一 · 峡湾轻徒步 + 老城与海滨长廊</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日程模块</th>
+                        <th>时间</th>
+                        <th>具体事项</th>
+                        <th>地址</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="module-col" rowspan="2" data-label="日程模块">Sugiton 峡湾徒步</td>
+                        <td class="time-col" data-label="时间">08:30–09:15</td>
+                        <td class="detail-col" data-label="具体事项">前往徒步起点：M2 至 Castellane 转 B1 快线至 Campus Luminy，或直接打车</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Campus+Luminy+Marseille" target="_blank">Campus Luminy</a>
+                        </td>
+                        <td class="note-col" data-label="备注">建议打车约 25 分钟（€25–30），省时省力</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">09:15–11:30</td>
+                        <td class="detail-col" data-label="具体事项"><strong>Sugiton 观景台轻徒步</strong>（蔚蓝海岸国家公园）<br>入口：Campus Luminy 终点站旁<br>路线：主防火道 → Belvédère de Sugiton → 原路返回<br>约 4 公里，往返 1.5–2 小时，路线平坦</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">徒步鞋、防晒、1L 饮水；出发前一天（9/20）在酒店或查官网确认是否因火险封园</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">返回老港</td>
+                        <td class="time-col" data-label="时间">11:30–12:15</td>
+                        <td class="detail-col" data-label="具体事项">B1 公交/打车返回老港</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">午餐</td>
+                        <td class="time-col" data-label="时间">12:30–14:00</td>
+                        <td class="detail-col" data-label="具体事项">
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">推荐：Le Café des Épices</span><br>
+                                创意地中海菜，午餐 menu 性价比高，本地人午餐热门。接受预约。
+                            </div>
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">或 La Boîte à Sardine <span class="badge badge-urgent">⚠️ 周一休息</span></span><br>
+                                快速海鲜小馆，沙丁鱼、章鱼、海鲜拼盘，不接受预约，先到先得。<strong>但 9/21 是周一，这家闭店，需换别家。</strong>
+                            </div>
+                        </td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Le+Cafe+des+Epices+Marseille" target="_blank">Le Café des Épices</a><br>
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=La+Boite+a+Sardine+2+Boulevard+de+la+Liberation+Marseille" target="_blank">La Boîte à Sardine</a>
+                        </td>
+                        <td class="note-col" data-label="备注">
+                            <strong>Le Café des Épices</strong>：Le Panier 老城区，接受预约<br>
+                            📞 地址电话待现场确认<br><br>
+                            <strong>La Boîte à Sardine</strong>：2 Bd de la Libération, 13001<br>
+                            📞 04 91 50 95 95<br>
+                            🔗 <a href="https://www.laboiteasardine.com/" target="_blank">laboiteasardine.com</a><br>
+                            ⚠️ <strong>周日周一休息，9/21 是周一，需换别家</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">酒店午休</td>
+                        <td class="time-col" data-label="时间">14:00–15:30</td>
+                        <td class="detail-col" data-label="具体事项">酒店午休（90 分钟）</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">Le Panier 老城漫步</td>
+                        <td class="time-col" data-label="时间">15:30–17:00</td>
+                        <td class="detail-col" data-label="具体事项"><strong>Le Panier 老城漫步</strong>：涂鸦、独立手工店、巷子<br>途经 <strong>马赛主教座堂</strong>（Cathédrale de la Major）</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Le+Panier+Marseille" target="_blank">Le Panier</a>
+                        </td>
+                        <td class="note-col" data-label="备注">周一开放（周二闭馆）</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">Mucem 海滨长廊</td>
+                        <td class="time-col" data-label="时间">17:00–18:30</td>
+                        <td class="detail-col" data-label="具体事项"><strong>Mucem 海滨长廊</strong>：走空中跨海长廊至圣让古堡平台看海</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Mucem+Marseille" target="_blank">Mucem</a>
+                        </td>
+                        <td class="note-col" data-label="备注">周一开放（周二闭馆），长廊+古堡平台免费</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">晚餐</td>
+                        <td class="time-col" data-label="时间">19:00 起</td>
+                        <td class="detail-col" data-label="具体事项">
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">推荐：Peron <span class="badge badge-pending">建议预约</span></span><br>
+                                面朝地中海的海鲜餐厅，日落景观，现代地中海菜。从老港打车 10 分钟。
+                            </div>
+                            <div class="restaurant-box">
+                                <span class="restaurant-name">或 Le Miramar / Chez Fonfon</span><br>
+                                如 9/20 未吃，可安排在今晚。
+                            </div>
+                        </td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Peron+56+Corniche+John+Fitzgerald+Kennedy+Marseille" target="_blank">Peron</a><br>
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Le+Miramar+12+Quai+du+Port+Marseille" target="_blank">Le Miramar</a><br>
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Chez+Fonfon+140+Rue+du+Vallon+des+Auffes+Marseille" target="_blank">Chez Fonfon</a>
+                        </td>
+                        <td class="note-col" data-label="备注">老港海滨晚餐</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- 9/22 -->
+            <div class="day-title">9/22 周二 · 隆尚宫 + 出发昂蒂布</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日程模块</th>
+                        <th>时间</th>
+                        <th>具体事项</th>
+                        <th>地址</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">退房</td>
+                        <td class="time-col" data-label="时间">09:00–09:45</td>
+                        <td class="detail-col" data-label="具体事项">早餐、退房，行李寄存酒店</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" rowspan="2" data-label="日程模块">隆尚宫</td>
+                        <td class="time-col" data-label="时间">09:45–10:00</td>
+                        <td class="detail-col" data-label="具体事项">M1 地铁至 Cinq Avenues Longchamp 站</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Palais+Longchamp+Marseille" target="_blank">Palais Longchamp</a>
+                        </td>
+                        <td class="note-col" data-label="备注">约 8 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">10:00–11:30</td>
+                        <td class="detail-col" data-label="具体事项"><strong>隆尚宫（Palais Longchamp）</strong>：水泉宫殿、中心喷泉、后方英式花园</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">免费</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">返回老港</td>
+                        <td class="time-col" data-label="时间">11:30–11:45</td>
+                        <td class="detail-col" data-label="具体事项">M1 返回老港</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">取行李</td>
+                        <td class="time-col" data-label="时间">11:45–12:00</td>
+                        <td class="detail-col" data-label="具体事项">取行李</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">午餐</td>
+                        <td class="time-col" data-label="时间">12:00–13:30</td>
+                        <td class="detail-col" data-label="具体事项">老港午餐</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Vieux+Port+Marseille" target="_blank">老港</a>
+                        </td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" rowspan="2" data-label="日程模块">前往昂蒂布<span class="badge badge-urgent">待订</span></td>
+                        <td class="time-col" data-label="时间">13:30–13:45</td>
+                        <td class="detail-col" data-label="具体事项">打车至马赛圣查尔斯站</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Gare+de+Marseille+Saint-Charles" target="_blank">马赛圣查尔斯站</a>
+                        </td>
+                        <td class="note-col" data-label="备注">约 10 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">14:00–16:30</td>
+                        <td class="detail-col" data-label="具体事项">🚆 <strong>马赛 → 昂蒂布</strong>，需在 Cannes 或 Nice 换乘</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">实际约 2.5–3 小时，预计 16:30–17:00 抵达昂蒂布。⏳ 待订（SNCF Connect）</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">抵达昂蒂布</td>
+                        <td class="time-col" data-label="时间">16:30 左右</td>
+                        <td class="detail-col" data-label="具体事项">抵达昂蒂布，办理 Airbnb 入住</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Antibes+France" target="_blank">昂蒂布</a>
+                        </td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 马赛预订提示 -->
+        <div class="section">
+            <h2 class="section-title">📋 马赛段待办事项</h2>
+
+            <div class="info-box">
+                <strong>🚆 火车票：</strong><br>
+                <strong>马赛 → 昂蒂布</strong>（9/22 13:00）— ⚠️ 待订，SNCF Connect
+            </div>
+
+            <div class="info-box">
+                <strong>🍽️ 餐厅预约：</strong><br>
+                1. Le Miramar（9/20 晚餐）— 马赛鱼汤，必须提前预约<br>
+                2. Chez Fonfon（9/20 或 9/21 晚餐）— 本地海鲜，建议预约<br>
+                3. Peron（9/21 晚餐）— 海景餐厅，建议预约
+            </div>
+        </div>
+
+        <!-- 第三段 · 昂蒂布 -->
+        <div class="section">
+            <h2 class="section-title">第三段 · 昂蒂布（9/22 – 9/27，5晚）</h2>
+
+            <!-- 9/22 周二晚 -->
+            <div class="day-title">9/22 周二 · 初抵达 + 城堡海墙与老港晚风</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日程模块</th>
+                        <th>时间</th>
+                        <th>具体事项</th>
+                        <th>地址</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">入住</td>
+                        <td class="time-col" data-label="时间">16:30–17:00</td>
+                        <td class="detail-col" data-label="具体事项">办理 Airbnb 入住</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Antibes+Old+Town" target="_blank">昂蒂布老城</a>
+                        </td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">休整</td>
+                        <td class="time-col" data-label="时间">17:00–17:30</td>
+                        <td class="detail-col" data-label="具体事项">整理休整</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" rowspan="2" data-label="日程模块">海墙步道</td>
+                        <td class="time-col" data-label="时间">17:30–19:00</td>
+                        <td class="detail-col" data-label="具体事项"><strong>沃邦港（Port Vauban）+ Le Nomade 字母雕塑 + 古城墙步道（Promenade Amiral de Grasse）</strong></td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Port+Vauban+Antibes" target="_blank">沃邦港</a>
+                        </td>
+                        <td class="note-col" data-label="备注">全欧最大游艇码头，日落约 19:30–19:45</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">19:00 起</td>
+                        <td class="detail-col" data-label="具体事项">老城海鲜 / 普罗旺斯晚餐，餐后漫步回 Airbnb<br>
+                        💡 <strong>推荐</strong>：<strong>Le Vauban</strong>（老城，海鲜为主，本地人热门）<span class="badge badge-pending">建议预约</span><br>
+                        或 <strong>Le P'tit Cageot</strong>（老城，普罗旺斯菜，€35–45）<span class="badge badge-pending">建议预约</span><br>
+                        或 <strong>Le Figuier de Saint-Esprit</strong>（米其林一星）<span class="badge badge-urgent">必须提前1周预约</span></td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Le+Vauban+7+bis+rue+Thuret+Antibes" target="_blank">Le Vauban</a><br>
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Le+P'tit+Cageot+5+Rue+du+Dr+Rostan+Antibes" target="_blank">Le P'tit Cageot</a><br>
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Le+Figuier+de+Saint-Esprit+14+rue+Saint-Esprit+Antibes" target="_blank">Le Figuier</a>
+                        </td>
+                        <td class="note-col" data-label="备注">
+                            <strong>Le Vauban</strong>：7 bis rue Thuret<br>
+                            📞 电话待官网确认 | 🔗 <a href="https://www.levauban.fr/" target="_blank">levauban.fr</a><br><br>
+                            <strong>Le P'tit Cageot</strong>：5 Rue du Dr Rostan<br>
+                            📞 +33 4 89 68 48 66 | 🔗 <a href="http://restaurantleptitcageot.fr/" target="_blank">restaurantleptitcageot.fr</a><br><br>
+                            <strong>Le Figuier</strong>：14 rue Saint-Esprit<br>
+                            📞 +33 4 93 34 50 12
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 9/23 周三 -->
+        <div class="section">
+            <div class="day-title">9/23 周三 · 埃兹 + 摩纳哥一日游</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日程模块</th>
+                        <th>时间</th>
+                        <th>具体事项</th>
+                        <th>地址</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">前往埃兹</td>
+                        <td class="time-col" data-label="时间">09:00–09:30</td>
+                        <td class="detail-col" data-label="具体事项">🚆 昂蒂布 → Éze-sur-Mer 火车站 TER</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Eze-sur-Mer+Station" target="_blank">Éze-sur-Mer 站</a>
+                        </td>
+                        <td class="note-col" data-label="备注">约 30 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">上山</td>
+                        <td class="time-col" data-label="时间">09:30–09:50</td>
+                        <td class="detail-col" data-label="具体事项">打车上山至埃兹村（约 €20–30，10 分钟）<br>💡 如恰好有 83 路公交则坐公交（约 17 分钟，但班次每 4 小时一班，可能等很久）</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Eze+Village+France" target="_blank">埃兹村</a>
+                        </td>
+                        <td class="note-col" data-label="备注">火车站在海平面，村在 427 米山顶</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">埃兹游览</td>
+                        <td class="time-col" data-label="时间">09:50–12:30</td>
+                        <td class="detail-col" data-label="具体事项"><strong>埃兹小镇 + 山顶热带植物园（Jardin Exotique）</strong>：石头小巷，427 米悬崖俯瞰地中海</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Jardin+Exotique+Eze" target="_blank">热带植物园</a>
+                        </td>
+                        <td class="note-col" data-label="备注">门票约 €7/人，现场购票</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">午餐</td>
+                        <td class="time-col" data-label="时间">12:30–13:30</td>
+                        <td class="detail-col" data-label="具体事项"><strong>Le Nid d'Aigle 简餐</strong><br>埃兹村顶，地中海全景 terasse<br><strong>4.4/5（944 条评价）｜人均约 €12–25</strong>（sandwich / salad / omelette）</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Le+Nid+d'Aigle+Eze" target="_blank">Le Nid d'Aigle</a>
+                        </td>
+                        <td class="note-col" data-label="备注">💡 9 月营业 09:00–17:00，周五周六休，周三 ✅<br>🔗 <a href="https://leniddaigle-eze.fr/" target="_blank">leniddaigle-eze.fr</a></td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">前往摩纳哥</td>
+                        <td class="time-col" data-label="时间">13:30–14:00</td>
+                        <td class="detail-col" data-label="具体事项">下山前往摩纳哥：<br>💡 <strong>优先方案</strong>：如恰好赶上 602 路公交（推测约 15:15 班次），坐公交直达摩纳哥（约 €5，20 分钟）<br>💡 <strong>备用方案</strong>：步行"尼采小径"下山至 Éze-sur-Mer 火车站（1.5 小时）+ 坐 TER 去摩纳哥（10 分钟）<br>💡 <strong>应急方案</strong>：打车下山至火车站（€20–30，10 分钟）+ 坐 TER 去摩纳哥</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">602 路公交每 4 小时一班</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">途中</td>
+                        <td class="time-col" data-label="时间">14:00–14:30</td>
+                        <td class="detail-col" data-label="具体事项">前往摩纳哥途中</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">摩纳哥半日<span class="badge badge-pending">老爷车建议预约</span></td>
+                        <td class="time-col" data-label="时间">14:30–18:30</td>
+                        <td class="detail-col" data-label="具体事项"><strong>摩纳哥半日</strong>（4 小时）<br>· 14:30–15:00 步行至赌场广场（约 15 分钟上坡）<br>· 15:00–16:00 蒙特卡洛赌场广场 + 租老爷车<br>💡 <strong>租老爷车自驾</strong>（约 €150–300/小时）：Monaco Experiences 或 Ride Classics，沿 F1 赛道路线兜风<br>💡 或改为步行 F1 赛道线路（自由探索，不开车）<br>· 16:00–16:30 开老爷车兜风或步行探索<br>· 16:30–17:00 还车 + 步行前往赫库勒港（约 10 分钟下坡）<br>· 17:00–17:30 赫库勒港（Port Hercule）超级游艇<br>· 17:30–18:00 步行上山至 Le Rocher 老城（约 15 分钟）<br>· 18:00–18:30 崖壁全景观景台 + 亲王宫广场</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Monaco+Monte+Carlo" target="_blank">摩纳哥</a>
+                        </td>
+                        <td class="note-col" data-label="备注">📞 预约：<a href="https://www.monacoexperiences.com/" target="_blank">monacoexperiences.com</a> 或 <a href="https://ride-classics.com/" target="_blank">ride-classics.com</a></td>
+                    </tr>
+                        <td class="time-col" data-label="时间">14:20–15:00</td>
+                        <td class="detail-col" data-label="具体事项">前往摩纳哥途中</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" rowspan="5" data-label="日程模块">摩纳哥<span class="badge badge-pending">建议预约</span></td>
+                        <td class="time-col" data-label="时间">15:00–15:15</td>
+                        <td class="detail-col" data-label="具体事项">步行至赌场广场（Casino Square，约 10 分钟上坡）</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Monaco+Monte+Carlo+Station" target="_blank">摩纳哥火车站</a>
+                        </td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">15:15–16:00</td>
+                        <td class="detail-col" data-label="具体事项">蒙特卡洛赌场广场 + 租老爷车<br>💡 <strong>租老爷车自驾</strong>（约 €150–300/小时）</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Casino+Square+Monaco" target="_blank">赌场广场</a>
+                        </td>
+                        <td class="note-col" data-label="备注">📞 预约：https://www.monacoexperiences.com/ 或 https://ride-classics.com/</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">16:00–16:30</td>
+                        <td class="detail-col" data-label="具体事项">开老爷车兜风（30 分钟，F1 赛道路线）</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">沿 F1 赛道经过赫库勒港、隧道、Grand Hotel Hairpin 弯道</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">16:30–17:00</td>
+                        <td class="detail-col" data-label="具体事项">还车 + 步行前往赫库勒港（约 10 分钟下坡）</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">17:00–17:30</td>
+                        <td class="detail-col" data-label="具体事项"><strong>赫库勒港（Port Hercule）</strong>超级游艇</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Port+Hercule+Monaco" target="_blank">赫库勒港</a>
+                        </td>
+                        <td class="note-col" data-label="备注">港口边拍照</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">老城崖壁</td>
+                        <td class="time-col" data-label="时间">17:30–18:00</td>
+                        <td class="detail-col" data-label="具体事项">步行上山至 Le Rocher 老城（约 15 分钟）</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Le+Rocher+Monaco" target="_blank">Le Rocher 老城</a>
+                        </td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">观景台</td>
+                        <td class="time-col" data-label="时间">18:00–18:30</td>
+                        <td class="detail-col" data-label="具体事项">崖壁全景观景台，俯瞰地中海和港口 + 亲王宫广场</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Monaco+Palace+Square" target="_blank">亲王宫广场</a>
+                        </td>
+                        <td class="note-col" data-label="备注">看日落（9 月日落约 19:30）</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">返程</td>
+                        <td class="time-col" data-label="时间">18:00–19:00</td>
+                        <td class="detail-col" data-label="具体事项">🚆 摩纳哥 → 昂蒂布 TER</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">约 55–70 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">晚餐</td>
+                        <td class="time-col" data-label="时间">19:30 起</td>
+                        <td class="detail-col" data-label="具体事项">昂蒂布晚餐<br>💡 <strong>推荐</strong>：<strong>Le Comptoir de La Tourraque</strong> — 安静居民区小巷中，舒适温馨，远离海滨游客区，普罗旺斯菜</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Le+Comptoir+de+la+Tourraque+1+rue+de+la+Tourraque+Antibes" target="_blank">Le Comptoir de La Tourraque</a>
+                        </td>
+                        <td class="note-col" data-label="备注">
+                            <strong>Le Comptoir de La Tourraque</strong>：1 rue de la Tourraque, 06600<br>
+                            📞 +33 4 93 95 24 86<br>
+                            💡 老城内，从公交站步行 10–15 分钟
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="info-box">
+                <strong>⚠️ 交通提示：</strong><br>
+                · 83 路公交（Éze-sur-Mer 站 → 埃兹村）每 4 小时一班，班次稀少，建议打车上山更舒适<br>
+                · 602 路公交（埃兹村 → 摩纳哥）每 4 小时一班，推测班次约 07:15 / 11:15 / 15:15 / 19:15<br>
+                · 如 14:00 午餐后无法赶上 15:15 的 602 路，可步行"尼采小径"下山（1.5 小时，哲学家尼采曾在此构思《查拉图斯特拉如是说》）或打车下山坐火车
+            </div>
+        </div>
+
+        <!-- 9/24 周四 -->
+        <div class="section">
+            <div class="day-title">9/24 周四 · 圣十字湖 + 凡尔登大峡谷一日游<span class="badge badge-urgent">团未订</span></div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日程模块</th>
+                        <th>时间</th>
+                        <th>具体事项</th>
+                        <th>地址</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">前往尼斯</td>
+                        <td class="time-col" data-label="时间">07:45–08:05</td>
+                        <td class="detail-col" data-label="具体事项">🚆 昂蒂布 → 尼斯 TER</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Nice+Ville+Station" target="_blank">尼斯火车站</a>
+                        </td>
+                        <td class="note-col" data-label="备注">约 18 分钟<br>⚠️ 仅 10 分钟缓冲</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">集合<span class="badge badge-urgent">待订</span></td>
+                        <td class="time-col" data-label="时间">08:15–08:30</td>
+                        <td class="detail-col" data-label="具体事项">尼斯火车站附近集合，参加拼车团（8 座商务车）</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">⚠️ 团未订（可到昂蒂布后再订）<br>平台：GetYourGuide 或 Viator<br>搜索："Nice: Gorges of Verdon & Ste Croix Lake"<br>价格：约 €70–90/人</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">一日游</td>
+                        <td class="time-col" data-label="时间">08:30–18:00</td>
+                        <td class="detail-col" data-label="具体事项"><strong>圣十字湖 & 凡尔登大峡谷一日游</strong><br>· 穿普罗旺斯丘陵公路前往峡湾<br>· 凡尔登大峡谷入湖口（Pont du Galetas）划船/脚踏船<br>· 山城陶瓷小镇 Moustiers-Sainte-Marie</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Lac+de+Sainte+Croix+France" target="_blank">圣十字湖</a>
+                        </td>
+                        <td class="note-col" data-label="备注">全天跟团</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">返回</td>
+                        <td class="time-col" data-label="时间">18:00–18:30</td>
+                        <td class="detail-col" data-label="具体事项">返回尼斯，TER 20 分钟回昂蒂布</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">⚠️ 实际常 18:30–19:30 才回</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">晚餐</td>
+                        <td class="time-col" data-label="时间">19:00 起</td>
+                        <td class="detail-col" data-label="具体事项">昂蒂布晚餐<br>💡 <strong>推荐</strong>：老城随便找家 bistro（一日游比较累，不用预约正式餐厅）</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 9/25 周五 -->
+        <div class="section">
+            <div class="day-title">9/25 周五 · 芒通 + 昂蒂布小巷探店</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日程模块</th>
+                        <th>时间</th>
+                        <th>具体事项</th>
+                        <th>地址</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">前往芒通</td>
+                        <td class="time-col" data-label="时间">09:00–10:00</td>
+                        <td class="detail-col" data-label="具体事项">🚆 昂蒂布 → 芒通（Menton）TER</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Menton+Station" target="_blank">芒通火车站</a>
+                        </td>
+                        <td class="note-col" data-label="备注">约 55–65 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" rowspan="4" data-label="日程模块">芒通步行路线</td>
+                        <td class="time-col" data-label="时间">10:00–10:15</td>
+                        <td class="detail-col" data-label="具体事项">火车站出发，步行至海滨大道</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Promenade+du+Soleil+Menton" target="_blank">阳光海滨大道</a>
+                        </td>
+                        <td class="note-col" data-label="备注">约 5 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">10:15–11:15</td>
+                        <td class="detail-col" data-label="具体事项"><strong>Promenade du Soleil</strong>（阳光海滨大道）+ <strong>Marché Couvert</strong>（有顶集市，Quai de Monléon，✅ 周五开放 6:00–13:00）+ 买柠檬冰淇淋/柠檬酒（芒通是柠檬之乡）</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Marche+Couvert+Menton" target="_blank">有顶集市</a>
+                        </td>
+                        <td class="note-col" data-label="备注">集市 12:30 开始收摊</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">11:15–12:00</td>
+                        <td class="detail-col" data-label="具体事项"><strong>Rampes Saint-Michel</strong>（黄色大楼梯）拾级而上 + <strong>Saint-Michel 大教堂广场</strong>俯瞰老城和地中海全景</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Rampes+Saint+Michel+Menton" target="_blank">黄色大楼梯</a>
+                        </td>
+                        <td class="note-col" data-label="备注">18 世纪巴洛克风格阶梯，超出片</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col" data-label="时间">12:00–13:00</td>
+                        <td class="detail-col" data-label="具体事项">老城窄巷闲逛（Rue Longue 彩色房子、小店、画廊）</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Rue+Longue+Menton" target="_blank">Rue Longue</a>
+                        </td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">下山</td>
+                        <td class="time-col" data-label="时间">13:00–14:00</td>
+                        <td class="detail-col" data-label="具体事项">下山回海滨</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">午餐</td>
+                        <td class="time-col" data-label="时间">14:00–15:00</td>
+                        <td class="detail-col" data-label="具体事项">芒通海滨午餐<br>💡 <strong>推荐</strong>：<strong>Le Galion</strong> — 港口海鲜餐厅，传统法式海鲜，木质船舱风格内饰，海景绝佳<br>或 <strong>A Braijade Meridiounale</strong> — 老城中心，特色烤串（蔬菜/肉/鱼三种主题）</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Le+Galion+Nouveau+Port+de+Menton+Garavan" target="_blank">Le Galion</a><br>
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=A+Braijade+Meridiounale+Menton" target="_blank">A Braijade</a>
+                        </td>
+                        <td class="note-col" data-label="备注">
+                            <strong>Le Galion</strong>：Nouveau Port de Menton, Garavan 06500<br>
+                            📞 04 93 35 89 73<br>
+                            🔗 <a href="https://www.le-galion-restaurant-menton.com/" target="_blank">le-galion-restaurant-menton.com</a><br>
+                            🕐 周一至周六 12:00–14:00 / 19:00–22:00<br>
+                            ⚠️ 在 Garavan 新港，不在老城海滨，从老城需再走一段或打车<br><br>
+                            <strong>A Braijade Meridiounale</strong>：老城中心<br>
+                            📞 地址电话待现场确认
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">返回</td>
+                        <td class="time-col" data-label="时间">15:00–16:00</td>
+                        <td class="detail-col" data-label="具体事项">🚆 芒通 → 昂蒂布 TER</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">约 55–65 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">探店</td>
+                        <td class="time-col" data-label="时间">16:30–18:00</td>
+                        <td class="detail-col" data-label="具体事项"><strong>昂蒂布老城区小巷探店</strong>：老城区（Vieil Antibes）随意闲逛，主要街道 Rue James Close、Rue Sade、Rue du Haut Castelet｜独立选品店、中古店、陶艺工坊、画廊、艺术家工作室</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Vieil+Antibes" target="_blank">昂蒂布老城</a>
+                        </td>
+                        <td class="note-col" data-label="备注">一个片区，步行 10-15 分钟可以逛完</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">晚餐<span class="badge badge-pending">建议预约</span></td>
+                        <td class="time-col" data-label="时间">18:30 起</td>
+                        <td class="detail-col" data-label="具体事项">Wine Bar / Bistro 晚餐，普罗旺斯冰镇桃红（Rosé）配火腿与奶酪<br>💡 <strong>推荐</strong>：<strong>Jeanne</strong>（老城区 wine bar）— 普罗旺斯菜 + 精选葡萄酒，本地人和游客都爱<span class="badge badge-pending">建议提前预约（非常热门）</span><br>或 <strong>Entre 2 Vins</strong>（Rue James Close 尽头）— 轻松愉快的氛围，葡萄酒品鉴 + 小食</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Jeanne+10+Rue+Sade+Antibes" target="_blank">Jeanne</a><br>
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Entre+2+Vins+2+Rue+James+Close+Antibes" target="_blank">Entre 2 Vins</a>
+                        </td>
+                        <td class="note-col" data-label="备注">
+                            <strong>Jeanne</strong>：10 Rue Sade, 06600<br>
+                            📞 +33 6 48 52 59 24<br>
+                            🔗 <a href="https://www.jeanne-antibes.com/" target="_blank">jeanne-antibes.com</a><br>
+                            💡 自然酒 300+ 种，人均约 €30（主菜+甜点）<br><br>
+                            <strong>Entre 2 Vins</strong>：2 Rue James Close, 06600<br>
+                            📞 +33 4 93 34 46 93<br>
+                            🕐 周二至周六 19:00 起<br>
+                            ⚠️ <strong>周日周一休息</strong>（9/25 是周五，没问题）
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 9/26 周六 -->
+        <div class="section">
+            <div class="day-title">9/26 周六 · 昂蒂布生活家的一天</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日程模块</th>
+                        <th>时间</th>
+                        <th>具体事项</th>
+                        <th>地址</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">集市</td>
+                        <td class="time-col" data-label="时间">08:30–11:00</td>
+                        <td class="detail-col" data-label="具体事项"><strong>普罗旺斯集市（Marché Provençal）</strong>：老城 Cours Masséna 顶棚集市｜现烤 Socca 鹰嘴豆饼、无花果、橄榄、奶酪</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Marche+Provencal+Antibes" target="_blank">Cours Masséna</a>
+                        </td>
+                        <td class="note-col" data-label="备注">✅ 周六开放，13:00 收摊</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">海滩野餐</td>
+                        <td class="time-col" data-label="时间">11:30–13:30</td>
+                        <td class="detail-col" data-label="具体事项"><strong>萨利斯海滩（Plage de la Salis）海边野餐</strong>：带集市美食铺垫子野餐、晒太阳</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Plage+de+la+Salis+Antibes" target="_blank">萨利斯海滩</a>
+                        </td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">海景步道</td>
+                        <td class="time-col" data-label="时间">14:00–17:00</td>
+                        <td class="detail-col" data-label="具体事项"><strong>昂蒂布角海景步道（Cap d'Antibes）轻徒步</strong>：2 路公交至 Plage de la Garoupe，沿石灰岩「海关步道」单程约 3.2 公里，看果冻海与绝壁豪宅</td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Cap+d+Antibes+Sentier+des+Douaniers" target="_blank">海关步道</a>
+                        </td>
+                        <td class="note-col" data-label="备注">免费</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">休整</td>
+                        <td class="time-col" data-label="时间">17:00–18:30</td>
+                        <td class="detail-col" data-label="具体事项">返回 Airbnb 洗澡休整</td>
+                        <td class="location-col" data-label="地址">-</td>
+                        <td class="note-col" data-label="备注">-</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">晚餐<span class="badge badge-pending">建议预约</span></td>
+                        <td class="time-col" data-label="时间">19:00 起</td>
+                        <td class="detail-col" data-label="具体事项">小镇周六夜漫步与法式晚餐<br>💡 <strong>推荐</strong>：<strong>Maison de Bacon</strong> — 豪华海鲜餐厅，海景，适合周末庆祝<span class="badge badge-pending">建议提前预约</span><br>或 <strong>Le Figuier de Saint-Esprit</strong>（米其林一星）<span class="badge badge-urgent">必须提前至少 1 周预约</span></td>
+                        <td class="location-col" data-label="地址">
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Maison+de+Bacon+Cap+d'Antibes" target="_blank">Maison de Bacon</a><br>
+                            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Le+Figuier+de+Saint-Esprit+14+rue+Saint-Esprit+Antibes" target="_blank">Le Figuier</a>
+                        </td>
+                        <td class="note-col" data-label="备注">
+                            <strong>Maison de Bacon</strong>：Cap d'Antibes 海岬<br>
+                            📞 电话待官网确认<br>
+                            🔗 <a href="https://maisondebacon.fr/contact/" target="_blank">maisondebacon.fr/contact</a><br>
+                            💡 1948 年老店 Le Bâcon 改造，主厨 Nicolas Davouze（曾任职 Bocuse、Le Bristol）<br>
+                            ⚠️ 在 Cap d'Antibes，不在老城，需打车约 10 分钟<br><br>
+                            <strong>Le Figuier de Saint-Esprit</strong>：14 rue Saint-Esprit<br>
+                            📞 +33 4 93 34 50 12<br>
+                            💡 位于老城墙边，毕加索博物馆与集市之间
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 昂蒂布段预订提示 -->
+        <div class="section">
+            <h2 class="section-title">📋 昂蒂布段待办事项</h2>
+
+            <div class="info-box">
+                <strong>🍽️ 餐厅预约（按优先级）：</strong><br>
+                1. <strong>Château Eza</strong>（9/23 午餐）— 米其林一星，€70 起，必须提前预约<br>
+                   📞 https://www.chateaueza.com/ 或 +33 4 93 41 12 24<br><br>
+                2. <strong>Jeanne</strong>（9/25 晚餐）— 老城 wine bar，非常热门，建议提前预约<br><br>
+                3. <strong>Maison de Bacon 或 Le Figuier de Saint-Esprit</strong>（9/26 晚餐）— 周六庆祝晚宴，建议提前预约
+            </div>
+
+            <div class="info-box">
+                <strong>🚗 租车预约：</strong><br>
+                <strong>摩纳哥老爷车自驾</strong>（9/23）— 约 €150–300/小时，建议提前预约<br>
+                📞 https://www.monacoexperiences.com/ 或 https://ride-classics.com/
+            </div>
+
+            <div class="info-box">
+                <strong>🎫 一日团预订：</strong><br>
+                <strong>圣十字湖 + 凡尔登大峡谷</strong>（9/24）— 约 €70–90/人，可到昂蒂布后再订<br>
+                平台：GetYourGuide 或 Viator<br>
+                搜索："Nice: Gorges of Verdon & Ste Croix Lake"
+            </div>
+        </div>
+
+        <!-- 尼斯段 -->
+        <div class="section">
+            <h2 class="section-title">第四段 · 尼斯（9/27 – 9/29，2晚3天）</h2>
+
+            <div class="day-title">9/27 周日 · 抵达日：扫货 + 城堡山日落 + 老城晚餐</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日程模块</th>
+                        <th>时间</th>
+                        <th>具体事项</th>
+                        <th>地址</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">交通</td>
+                        <td class="time-col" data-label="时间">10:00–10:45</td>
+                        <td class="detail-col" data-label="具体事项">昂蒂布民宿退房 → 打车至尼斯火车站（约 25 分钟，€30–40）</td>
+                        <td class="location-col" data-label="地址">Gare de Nice-Ville</td>
+                        <td class="notes-col" data-label="备注">尼斯 Airbnb 15:00 才能入住</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">寄存</td>
+                        <td class="time-col" data-label="时间">10:45–11:05</td>
+                        <td class="detail-col" data-label="具体事项"><strong>Bagmobile 行李寄存</strong>（站内官方，SNCF 合作，08:15–21:00）</td>
+                        <td class="location-col" data-label="地址">尼斯火车站内</td>
+                        <td class="notes-col" data-label="备注">⚠️ 建议提前官网预约锁定名额<br>站外另有 Radical Storage / Nannybag</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">Brunch</td>
+                        <td class="time-col" data-label="时间">11:05–13:15</td>
+                        <td class="detail-col" data-label="具体事项">步行至马塞纳广场（12 分钟）逛逛<br><strong>12:00–13:15 Tigermilk 早午餐</strong>：拉丁/加勒比风，ceviche 为主打，人均 €15–25</td>
+                        <td class="location-col" data-label="地址">
+                            <a href="https://www.google.com/maps/search/?api=1&query=9+Rue+Gustave+Deloye,+06000+Nice" target="_blank" class="map-btn">📍</a>
+                            9 Rue Gustave Deloye<br>马塞纳广场北侧
+                        </td>
+                        <td class="notes-col" data-label="备注">⚠️ 周日 12:00 才开门<br>⏳ 建议提前订位（2300+ 条评价热门店）</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">购物</td>
+                        <td class="time-col" data-label="时间">13:30–15:00</td>
+                        <td class="detail-col" data-label="具体事项"><strong>高端品牌扫货</strong>（1.5 小时）<br><strong>Rue Paradis</strong>：LV / Chanel / Dior / Hermès / Cartier<br><strong>Rue de France</strong>：Longchamp / Zadig & Voltaire / Ba&sh</td>
+                        <td class="location-col" data-label="地址">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Rue+Paradis+Nice" target="_blank" class="map-btn">📍</a>
+                            Rue Paradis 一带
+                        </td>
+                        <td class="notes-col" data-label="备注">💡 周日营业到 19:00，比周一保险<br>⚠️ 部分独立店 11:00 后才开</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">入住</td>
+                        <td class="time-col" data-label="时间">15:15–15:45</td>
+                        <td class="detail-col" data-label="具体事项">取行李 → 打车至 Airbnb 入住（约 15–20 分钟，€18–25）</td>
+                        <td class="location-col" data-label="地址">
+                            <a href="https://www.google.com/maps/search/?api=1&query=21+Bd+Franck+Pilatte,+06300+Nice" target="_blank" class="map-btn">📍</a>
+                            21 Bd Franck Pilatte<br>尼斯东端海滨
+                        </td>
+                        <td class="notes-col" data-label="备注">💡 Airbnb 15:00 开始入住<br>公交需换乘约 30–40 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">休整</td>
+                        <td class="time-col" data-label="时间">15:45–17:00</td>
+                        <td class="detail-col" data-label="具体事项">Airbnb 内休息、整理战利品</td>
+                        <td class="location-col" data-label="地址">—</td>
+                        <td class="notes-col" data-label="备注">—</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">日落</td>
+                        <td class="time-col" data-label="时间">17:00–19:00</td>
+                        <td class="detail-col" data-label="具体事项"><strong>城堡山（Colline du Château）日落</strong>：从港口东侧或老城方向登顶，俯瞰天使湾弯月海岸全景</td>
+                        <td class="location-col" data-label="地址">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Colline+du+Château+Nice" target="_blank" class="map-btn">📍</a>
+                            城堡山
+                        </td>
+                        <td class="notes-col" data-label="备注">💡 9 月下旬日落约 19:15–19:30<br>💡 免费开放，全天可进入<br>💡 从 Airbnb 步行约 25 分钟（经港口）</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">晚餐</td>
+                        <td class="time-col" data-label="时间">19:30 起</td>
+                        <td class="detail-col" data-label="具体事项"><strong>Peixes 晚餐</strong>：海鲜料理，人均 €20–40，4.4/5</td>
+                        <td class="location-col" data-label="地址">
+                            <a href="https://www.google.com/maps/search/?api=1&query=4+Rue+Jacques+Médecin,+06300+Nice" target="_blank" class="map-btn">📍</a>
+                            4 Rue Jacques Médecin<br>老城核心
+                        </td>
+                        <td class="notes-col" data-label="备注">💡 从城堡山步行 5–8 分钟<br>⏳ 建议提前订位<br><br><strong>备选：L'Antidote</strong>（bistronomique，4.9/5，€45–65）<br>3 Rue Dalpozzo，新城</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="day-title">9/28 周一 · 古董市 + 老城慢游 + 海边发呆</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日程模块</th>
+                        <th>时间</th>
+                        <th>具体事项</th>
+                        <th>地址</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">出发</td>
+                        <td class="time-col" data-label="时间">09:30–10:00</td>
+                        <td class="detail-col" data-label="具体事项">从 Airbnb 步行至老城 Cours Saleya（约 25 分钟，沿海岸经港口）</td>
+                        <td class="location-col" data-label="地址">—</td>
+                        <td class="notes-col" data-label="备注">💡 或打车约 10 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">咖啡</td>
+                        <td class="time-col" data-label="时间">10:00–10:30</td>
+                        <td class="detail-col" data-label="具体事项">老城咖啡馆</td>
+                        <td class="location-col" data-label="地址">
+                            <a href="https://www.google.com/maps/search/?api=1&query=13+Cours+Saleya,+06300+Nice" target="_blank" class="map-btn">📍</a>
+                            <strong>Grand Café des Fleurs</strong><br>13 Cours Saleya
+                        </td>
+                        <td class="notes-col" data-label="备注">💡 每天 08:00–24:00 营业<br>花市正对面</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">古董市</td>
+                        <td class="time-col" data-label="时间">10:30–12:00</td>
+                        <td class="detail-col" data-label="具体事项"><strong>Cours Saleya 古董跳蚤市（Marché à la Brocante）</strong>：约 180–200 摊，本地人淘货市场，非商业化旅游市场</td>
+                        <td class="location-col" data-label="地址">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Cours+Saleya+Nice" target="_blank" class="map-btn">📍</a>
+                            Cours Saleya
+                        </td>
+                        <td class="notes-col" data-label="备注">💡 <strong>周一专场</strong>（07:00–18:00）<br>💡 古董家具、中古服饰、瓷器、旧海报、明信片、徽章</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">午餐</td>
+                        <td class="time-col" data-label="时间">12:00–14:00</td>
+                        <td class="detail-col" data-label="具体事项"><strong>Le Panier 午餐（Fine Dining）</strong><br>主厨 Aurélien Martin + 侍酒师 Marie Lacoue<br><strong>盲选品鉴菜单</strong>（carte blanche）<br>4.8/5（2689 条评价）｜JRE 青年名厨协会会员｜人均 €45–79</td>
+                        <td class="location-col" data-label="地址">
+                            <a href="https://www.google.com/maps/search/?api=1&query=5+Rue+Barillerie,+06300+Nice" target="_blank" class="map-btn">📍</a>
+                            5 Rue Barillerie<br>老城安静小巷
+                        </td>
+                        <td class="notes-col" data-label="备注">⏳ <strong>必须提前订位</strong><br>📞 +33 4 89 97 14 37<br>✉️ reservation@restaurantlepanier.com<br>🔗 restaurantlepanier.com<br>💡 周一午市 12:00–14:00 ✅<br>💡 从古董市走过来 5 分钟</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">小店</td>
+                        <td class="time-col" data-label="时间">14:00–15:45</td>
+                        <td class="detail-col" data-label="具体事项"><strong>老城区小店闲逛</strong><br>Rue Droite / Rue de la Préfecture / Rue du Collet 一带<br>独立选品店、艺术画廊、陶瓷工坊、中古店、香水小店、普罗旺斯特产店</td>
+                        <td class="location-col" data-label="地址">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Rue+Droite+Nice" target="_blank" class="map-btn">📍</a>
+                            老城核心区
+                        </td>
+                        <td class="notes-col" data-label="备注">—</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">甜品</td>
+                        <td class="time-col" data-label="时间">15:45–16:15</td>
+                        <td class="detail-col" data-label="具体事项"><strong>Fenocchio 冰淇淋</strong>：1966 年至今，100+ 种口味，€4–8</td>
+                        <td class="location-col" data-label="地址">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Place+Rossetti+Nice" target="_blank" class="map-btn">📍</a>
+                            Place Rossetti
+                        </td>
+                        <td class="notes-col" data-label="备注">💡 尼斯传奇冰淇淋店</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">海滨</td>
+                        <td class="time-col" data-label="时间">16:40–17:30</td>
+                        <td class="detail-col" data-label="具体事项"><strong>英国人步行道（Promenade des Anglais）+ 蓝椅子</strong>：坐蓝色椅子（Chaise Bleue）看天使湾、听浪</td>
+                        <td class="location-col" data-label="地址">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Promenade+des+Anglais+Nice" target="_blank" class="map-btn">📍</a>
+                            英国人步行道
+                        </td>
+                        <td class="notes-col" data-label="备注">💡 从老城步行 20 分钟<br>💡 或轻轨 L1 到 Masséna 站转步行</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">晚餐</td>
+                        <td class="time-col" data-label="时间">19:30 起</td>
+                        <td class="detail-col" data-label="具体事项"><strong>La Merenda 晚餐</strong><br>老城 50 多年历史尼斯菜老馆，米其林指南收录<br>主厨 Dominique Le Stanc — 原 Negresco 酒店 Le Chantecler 米其林二星主厨<br>人均约 €33（前菜+主菜+甜点）</td>
+                        <td class="location-col" data-label="地址">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Rue+Raoul+Bosio,+06300+Nice" target="_blank" class="map-btn">📍</a>
+                            Rue Raoul Bosio<br>老城，离 Cours Saleya 几步路
+                        </td>
+                        <td class="notes-col" data-label="备注">⏳ <strong>必须线上预约</strong><br>🔗 https://lamerenda.net/<br>💡 周一至周五 19:00–21:30<br>⚠️ <strong>不收信用卡，务必带现金</strong><br>⚠️ 店面很小，务必提前订<br>💡 招牌：pissaladière / tripe à la niçoise / stockfish / 柠檬塔</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="day-title">9/29 周二 · 悠闲上午 + 返程上海</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日程模块</th>
+                        <th>时间</th>
+                        <th>具体事项</th>
+                        <th>地址</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">上午</td>
+                        <td class="time-col" data-label="时间">08:00–10:40</td>
+                        <td class="detail-col" data-label="具体事项">Airbnb 内悠闲上午 — 睡到自然醒、整理行李、收拾战利品</td>
+                        <td class="location-col" data-label="地址">—</td>
+                        <td class="notes-col" data-label="备注">—</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">Brunch</td>
+                        <td class="time-col" data-label="时间">10:45–11:55</td>
+                        <td class="detail-col" data-label="具体事项"><strong>Club Nautique de Nice 早午餐</strong><br>1883 年创立的历史帆船俱乐部，餐厅在二楼<br><strong>天使湾全景 + 阳光露台</strong><br>人均约 €25–40｜菜单常换，以海鲜与地中海菜为主</td>
+                        <td class="location-col" data-label="地址">
+                            <a href="https://www.google.com/maps/search/?api=1&query=50+Bd+Franck+Pilatte,+06300+Nice" target="_blank" class="map-btn">📍</a>
+                            50 Bd Franck Pilatte<br>你家步行 5 分钟
+                        </td>
+                        <td class="notes-col" data-label="备注">💡 Google Maps 显示 09:00 开门<br>💡 收官前最后一顿，面朝天使湾吃</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">退房</td>
+                        <td class="time-col" data-label="时间">11:55–12:10</td>
+                        <td class="detail-col" data-label="具体事项">走回 Airbnb 取行李，正式退房</td>
+                        <td class="location-col" data-label="地址">—</td>
+                        <td class="notes-col" data-label="备注">—</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">机场</td>
+                        <td class="time-col" data-label="时间">12:10–12:30</td>
+                        <td class="detail-col" data-label="具体事项">🚗 打车至尼斯蔚蓝海岸机场 T2（约 20 分钟，€25–35）</td>
+                        <td class="location-col" data-label="地址">Nice Côte d'Azur Airport T2</td>
+                        <td class="notes-col" data-label="备注">💡 轻轨 L2 约 30 分钟，需预留更多时间</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">退税</td>
+                        <td class="time-col" data-label="时间">12:30–13:10</td>
+                        <td class="detail-col" data-label="具体事项"><strong>海关验章 + Global Exchange 退税</strong>（预留 40 分钟）</td>
+                        <td class="location-col" data-label="地址">尼斯 T2 航站楼</td>
+                        <td class="notes-col" data-label="备注">⚠️ <strong>必须在办理登机前完成</strong><br>① 先到 French Customs 盖章验证（出示购物单据、护照、商品）<br>② 再到 Global Exchange 窗口办理<br>💡 T2 窗口营业 08:15–18:00<br>📞 +33 4 93 21 36 32</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">登机</td>
+                        <td class="time-col" data-label="时间">13:10–14:10</td>
+                        <td class="detail-col" data-label="具体事项">办理登机、托运行李、安检、进入候机区</td>
+                        <td class="location-col" data-label="地址">—</td>
+                        <td class="notes-col" data-label="备注">—</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">候机</td>
+                        <td class="time-col" data-label="时间">14:10–15:50</td>
+                        <td class="detail-col" data-label="具体事项">候机区休息、免税店</td>
+                        <td class="location-col" data-label="地址">—</td>
+                        <td class="notes-col" data-label="备注">—</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">航班</td>
+                        <td class="time-col" data-label="时间">15:50</td>
+                        <td class="detail-col" data-label="具体事项">✈️ <strong>EK078</strong> 尼斯 T2 → 迪拜 T3 23:59</td>
+                        <td class="location-col" data-label="地址">—</td>
+                        <td class="notes-col" data-label="备注">—</td>
+                    </tr>
+                    <tr>
+                        <td class="module-col" data-label="日程模块">转机</td>
+                        <td class="time-col" data-label="时间">9/30 02:50</td>
+                        <td class="detail-col" data-label="具体事项">✈️ <strong>EK302</strong> 迪拜 T3 → 上海浦东 T2 15:30</td>
+                        <td class="location-col" data-label="地址">—</td>
+                        <td class="notes-col" data-label="备注">—</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 尼斯段预订提示 -->
+        <div class="section">
+            <h2 class="section-title">📋 尼斯段待办事项</h2>
+
+            <div class="info-box">
+                <strong>🍽️ 餐厅预约（按优先级）：</strong><br>
+                1. <strong>Le Panier</strong>（9/28 午餐）— 盲选品鉴 fine dining，必须订<br>
+                   📞 +33 4 89 97 14 37 或 ✉️ reservation@restaurantlepanier.com<br><br>
+                2. <strong>La Merenda</strong>（9/28 晚餐）— 二星主厨尼斯菜，店小必须订<br>
+                   🔗 https://lamerenda.net/<br>
+                   ⚠️ <strong>不收信用卡，记得带现金</strong><br><br>
+                3. <strong>Peixes</strong>（9/27 晚餐）— 老城海鲜，建议订<br>
+                   4 Rue Jacques Médecin, 06300 Nice<br><br>
+                4. <strong>Tigermilk</strong>（9/27 午餐）— 建议订<br>
+                   9 Rue Gustave Deloye, 06000 Nice
+            </div>
+
+            <div class="info-box">
+                <strong>🎒 行李寄存预约：</strong><br>
+                <strong>Bagmobile</strong>（9/27）— 尼斯火车站内官方寄存，08:15–21:00<br>
+                建议提前官网预约锁定名额
+            </div>
+
+            <div class="info-box">
+                <strong>⚠️ 出发前确认营业时间：</strong><br>
+                • Club Nautique de Nice（周二上午）<br>
+                • Peixes（周日晚）<br>
+                • Rue Paradis 大牌店（周日）
+            </div>
+        </div>
+
+        <footer style="text-align: center; padding: 40px 20px; color: #999; font-size: 0.9em;">
+            <p>💡 点击 📍 按钮可在 Google Maps 中打开地址</p>
+            <p style="margin-top: 10px;">生成时间：2026年9月行程 | 巴塞罗那 + 马赛 + 昂蒂布 + 尼斯段</p>
+        </footer>
+    </div>
+</body>
+</html>
