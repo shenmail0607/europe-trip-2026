@@ -1,0 +1,5 @@
+# 本地构建产物（与根目录 index.html 内容重复）
+deploy/
+
+# macOS
+.DS_Store
