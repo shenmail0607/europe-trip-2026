@@ -193,52 +193,161 @@
         }
 
         @media (max-width: 1024px) {
-            .module-col { width: 18%; }
-            .time-col { width: 14%; }
-            .detail-col { width: 35%; }
-            .location-col { width: 18%; }
-            .note-col { width: 15%; }
+            body {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .section {
+                padding: 20px;
+            }
         }
 
         @media (max-width: 768px) {
-            table, thead, tbody, th, td, tr {
-                display: block;
-            }
-
-            thead tr {
-                display: none;
-            }
-
-            tr {
-                margin-bottom: 15px;
-                border: 1px solid #ddd;
-                border-radius: 5px;
+            body {
                 padding: 10px;
+                font-size: 14px;
+            }
+
+            h1 {
+                font-size: 1.6em;
+                margin-bottom: 8px;
+            }
+
+            .subtitle {
+                font-size: 0.95em;
+                margin-bottom: 20px;
+            }
+
+            .section {
+                padding: 12px;
+                margin-bottom: 20px;
+            }
+
+            .section-title {
+                font-size: 1.3em;
+                margin-bottom: 15px;
+            }
+
+            .day-title {
+                font-size: 1.1em;
+                margin: 20px 0 12px 0;
+                padding: 8px 12px;
+            }
+
+            .warning-box, .info-box {
+                padding: 12px 15px;
+                margin: 12px 0;
+                font-size: 0.9em;
+            }
+
+            /* 表格横向滚动 */
+            .table-wrapper {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                margin: 0 -12px;
+                padding: 0 12px;
+            }
+
+            table {
+                min-width: 800px;
+                font-size: 0.85em;
+            }
+
+            th {
+                padding: 10px 8px;
+                font-size: 0.9em;
             }
 
             td {
-                border: none;
-                position: relative;
-                padding-left: 40%;
-                text-align: left;
-            }
-
-            td:before {
-                content: attr(data-label);
-                position: absolute;
-                left: 10px;
-                font-weight: bold;
-                color: #34495e;
+                padding: 10px 8px;
             }
 
             .module-col {
-                background: #3498db !important;
-                color: white !important;
-                padding: 10px !important;
-                margin-bottom: 10px;
+                min-width: 100px;
+            }
+
+            .time-col {
+                min-width: 90px;
+            }
+
+            .detail-col {
+                min-width: 250px;
+            }
+
+            .location-col {
+                min-width: 120px;
+            }
+
+            .note-col {
+                min-width: 150px;
+            }
+
+            .map-link {
+                font-size: 0.85em;
+                padding: 4px 8px;
+            }
+
+            .restaurant-box {
+                margin: 5px 0;
+                padding: 8px 10px;
+                font-size: 0.85em;
+            }
+
+            .badge {
+                font-size: 0.7em;
+                padding: 2px 6px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 8px;
+                font-size: 13px;
+            }
+
+            h1 {
+                font-size: 1.4em;
+            }
+
+            .subtitle {
+                font-size: 0.85em;
+            }
+
+            .section {
+                padding: 10px;
+            }
+
+            .section-title {
+                font-size: 1.15em;
+            }
+
+            .day-title {
+                font-size: 1em;
+                padding: 8px 10px;
+            }
+
+            table {
+                min-width: 750px;
+                font-size: 0.8em;
             }
         }
     </style>
+    <script>
+        // 页面加载后自动给所有表格添加滚动容器
+        document.addEventListener('DOMContentLoaded', function() {
+            const tables = document.querySelectorAll('table');
+            tables.forEach(table => {
+                const wrapper = document.createElement('div');
+                wrapper.className = 'table-wrapper';
+                table.parentNode.insertBefore(wrapper, table);
+                wrapper.appendChild(table);
+            });
+        });
+    </script>
 </head>
 <body>
     <div class="container">
